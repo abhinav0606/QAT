@@ -1,0 +1,7 @@
+<p>{{ login_status }} {{ user_type }}</p>
+{% if login_status %}
+{{ user }} 
+{% endif %}
+{% if warning %}
+      <h3 class="form-signin-heading" >*{{ warning }}</h3>
+{% endif %}
